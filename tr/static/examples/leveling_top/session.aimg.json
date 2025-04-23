@@ -1,0 +1,11 @@
+{
+  "type": "NoScriptAnimated",
+  "profiles": [
+    {
+      "name": "GoogleFonts",
+      "config": [
+        "Poppins"
+      ]
+    }
+  ]
+}

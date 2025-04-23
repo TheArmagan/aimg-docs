@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "id": "0",
+      "username": "Armagan",
+      "display_name": "Armi",
+      "avatar_url": "https://cdn.discordapp.com/avatars/707309693449535599/28062bc6468ae1f751144e5cfeaf34b3.webp?size=1024&format=webp",
+      "avatar_decoration_url": "https://cdn.discordapp.com/avatar-decoration-presets/a_172fa9da0af8698e37f5e5de76637439.png?size=1024&passthrough=false",
+      "rank": 1,
+      "level": 6,
+      "current_xp": 245,
+      "target_xp": 631
+    },
+    {
+      "id": "1",
+      "avatar_url": "https://cdn.discordapp.com/avatars/319862027571036161/9e0ce10aa9135636ddd35f22eef42cab.webp?size=1024&format=webp",
+      "username": "Erdem",
+      "display_name": "Japon Erdem",
+      "rank": 2,
+      "level": 5,
+      "current_xp": 94,
+      "target_xp": 406
+    },
+    {
+      "id": "2",
+      "avatar_url": "https://cdn.discordapp.com/avatars/251850466084913153/3a9d4ecaa2c39e1f224a7ccc0229b1e8.webp?size=1024&format=webp",
+      "avatar_decoration_url": "https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=1024&passthrough=false",
+      "username": "Lava",
+      "display_name": "Lava",
+      "rank": 3,
+      "level": 4,
+      "current_xp": 10,
+      "target_xp": 100
+    }
+  ]
+}

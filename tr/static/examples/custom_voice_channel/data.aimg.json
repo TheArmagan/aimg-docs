@@ -1,0 +1,59 @@
+{
+  "channel": {
+    "name": "Örnek Ses Kanalı",
+    "user_limit": 10,
+    "user_count": 1,
+    "owner": {
+      "id": "0",
+      "avatar_url": "https://cdn.discordapp.com/avatars/707309693449535599/28062bc6468ae1f751144e5cfeaf34b3.webp?size=1024&format=webp",
+      "username": "Armagan"
+    },
+    "member_lists": [
+      {
+        "name": "Beyaz Listeliler",
+        "members": [
+          {
+            "id": "0",
+            "avatar_url": "https://cdn.discordapp.com/avatars/707309693449535599/28062bc6468ae1f751144e5cfeaf34b3.webp?size=1024&format=webp",
+            "username": "Armagan"
+          },
+          {
+            "id": "1",
+            "avatar_url": "https://cdn.discordapp.com/avatars/319862027571036161/9e0ce10aa9135636ddd35f22eef42cab.webp?size=1024&format=webp",
+            "username": "Erdem"
+          },
+          {
+            "id": "2",
+            "avatar_url": "https://cdn.discordapp.com/avatars/251850466084913153/3a9d4ecaa2c39e1f224a7ccc0229b1e8.webp?size=1024&format=webp",
+            "username": "lava"
+          }
+        ]
+      },
+      {
+        "name": "Kara Listeliler",
+        "members": [
+          {
+            "id": "0",
+            "avatar_url": "https://cdn.discordapp.com/avatars/707309693449535599/28062bc6468ae1f751144e5cfeaf34b3.webp?size=1024&format=webp",
+            "username": "Armagan"
+          }
+        ]
+      },
+      {
+        "name": "Yetkili Üyeler",
+        "members": [
+          {
+            "id": "0",
+            "avatar_url": "https://cdn.discordapp.com/avatars/707309693449535599/28062bc6468ae1f751144e5cfeaf34b3.webp?size=1024&format=webp",
+            "username": "Armagan"
+          }
+        ]
+      }
+    ]
+  },
+  "other": {
+    "live": true,
+    "locked": false,
+    "hidden": false
+  }
+}
