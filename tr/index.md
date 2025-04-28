@@ -22,7 +22,7 @@ AIMG, HTML şablonlarını kullanarak **dinamik resimler** (PNG/GIF) oluşturman
 - **⚙️ Gelişmiş Özelleştirme:** Resimlerinizi tam istediğiniz gibi ayarlayın.
 
 ## 💡 Örnekler
-AIMG ile yapılmış olan örnekleri [buraya tıklayarak inceleyebilirsiniz.](/ornekler) 👈
+AIMG ile yapılmış olan örnekleri [buraya tıklayarak inceleyebilirsiniz.](/examples) 👈
 
 ## 🚀 Hızlı Başlangıç
 AIMG ile hızlı bir başlangıç yapmak için aşağıdaki adımları izleyebilirsiniz:
