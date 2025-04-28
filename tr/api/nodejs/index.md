@@ -135,9 +135,9 @@ renderCustomHtml();
 
 Yeni bir istemci örneği oluşturur.
 
-*   `options`: [`AIMGClientOptions`](src/classes/AIMGClient.ts)
+*   `options`: [`AIMGClientOptions`](https://github.com/TheArmagan/aimg-client/blob/HEAD/src/classes/AIMGClient.ts)
     *   `apiKey` (string, **gerekli**): AIMG API anahtarınız.
-    *   `rest?`: [`RestOptions`](src/classes/Rest/index.ts) (İsteğe bağlı) REST istemcisi için ek ayarlar (örneğin, `baseUrl`, `timeout`, `headers`).
+    *   `rest?`: [`RestOptions`](https://github.com/TheArmagan/aimg-client/blob/HEAD/src/classes/Rest/index.ts) (İsteğe bağlı) REST istemcisi için ek ayarlar (örneğin, `baseUrl`, `timeout`, `headers`).
     *   `templatesPath?`: (string, İsteğe bağlı) Şablonları içeren klasörün yolu. Varsayılan: `path.join(process.cwd(), "templates")`.
 
 ### `async renderTemplate(name, data?)`
@@ -153,8 +153,8 @@ Bir şablonu işler.
 Özel HTML içeriğini işler.
 
 *   `html` (string): İşlenecek HTML içeriği.
-*   `config`: [`RestRenderSessionOptions['config']`](src/classes/Rest/Sessions.ts)
+*   `config`: [`RestRenderSessionOptions['config']`](https://github.com/TheArmagan/aimg-client/blob/HEAD/src/classes/Rest/Sessions.ts)
     *   `data` (Record<string, any>): HTML'ye enjekte edilecek veriler.
     *   `animation?`: Animasyon ayarları (`sessionConfig.type` animasyonlu ise).
-*   `sessionConfig`: [`RestSessionInstance`](src/classes/Rest/Sessions.ts) Oturum türünü ve profilleri belirtir.
+*   `sessionConfig`: [`RestSessionInstance`](https://github.com/TheArmagan/aimg-client/blob/HEAD/src/classes/Rest/Sessions.ts) Oturum türünü ve profilleri belirtir.
 *   **Dönüş:** `Promise<{ buffer: Buffer, filename: string, content_type: "image/png" | "image/gif", statistics: any }>`
