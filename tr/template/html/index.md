@@ -14,3 +14,6 @@ Motorun düzgün çalışabilmesi için şablon dosyasında aşağıdaki kuralla
 - **`<head>`**: 📃 Şablonun başlık kısmıdır. Burada stil dosyalarını ve diğer meta bilgileri tanımlayabilirsiniz.
 - **`<style>`**: 💅 Şablonun stil kısmıdır. Burada CSS ile görselin stilini belirleyebilirsiniz.
 - **`<body>`**: 📃 Şablonun içerik kısmıdır. Burada görselin tasarımını yapabilirsiniz.
+
+
+TODO: Unovis elementlerini dökümana ekle
