@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Voice Channel</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins";
+    }
+
+    .card-container {
+      display: flex;
+      padding: 32px;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25));
+
+      & > .card {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        gap: 12px;
+
+        & > .members {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+
+          .member {
+            background-color: #1a1a1e;
+            border: 4px solid #1a1a1e;
+            border-radius: 999px;
+            width: 100%;
+            display: flex;
+
+            & > .avatar-container {
+              position: relative;
+              width: 40px;
+              height: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              & > .avatar {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 999px;
+                position: absolute;
+                inset: 0;
+                z-index: 1;
+              }
+
+              & > .decoration {
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                scale: 1.25;
+                z-index: 2;
+              }
+            }
+
+            & > .content {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 4px;
+              padding: 0 16px;
+              border-radius: 999px;
+              width: 100%;
+
+              & > .name-container {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+
+                .text {
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: white;
+                  line-height: 1;
+                }
+
+                .subtext {
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: rgba(255, 255, 255, 0.5);
+                  line-height: 1;
+                }
+              }
+
+              & > .ranking {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 12px;
+
+                & > .bar-container {
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+
+                  .xp-text {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: rgba(255, 255, 255, 0.5);
+                    line-height: 1;
+                  }
+
+                  & > .progress-bar {
+                    width: 100px;
+                    background-color: rgba(255, 255, 255, 0.25);
+                    border-radius: 999px;
+                    height: 8px;
+                    overflow: hidden;
+                    contain: content;
+
+                    & > .progress {
+                      width: var(--progress);
+                      background-color: rgba(255, 255, 255, 0.5);
+                      border-radius: 999px;
+                      height: 8px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: flex-end;
+
+                      & > .dot {
+                        width: 8px;
+                        height: 8px;
+                        background-color: rgba(255, 255, 255, 0.5);
+                        border-radius: 999px;
+                        position: relative;
+                        padding: 0 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                      }
+                    }
+                  }
+                }
+
+                & > .rank-container {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 8px;
+
+                  & > .level {
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: rgba(255, 255, 255, 0.75);
+                    line-height: 1;
+                  }
+
+                  & > .rank {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: white;
+                    line-height: 1;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <div class="members">
+        <% it.members.forEach(member => { %>
+          <div class="member">
+            <div class="avatar-container">
+              <% if (member.avatar_decoration_url) { %>
+                <img src="<%= member.avatar_decoration_url %>" alt="Avatar" class="decoration" />
+              <% } %>
+              <img src="<%= member.avatar_url %>" alt="Avatar" class="avatar" />
+            </div>
+            <div class="content">
+              <div class="name-container">
+                <% if (member.display_name && member.display_name !== member.username) { %>
+                  <div class="text">
+                    <%= member.display_name %>
+                  </div>
+                  <div class="subtext">
+                    <%= member.username %>
+                  </div>
+                <% } else { %>
+                  <div class="text">
+                    <%= member.username %>
+                  </div>
+                <% } %>
+              </div>
+              <div class="ranking">
+                <div class="bar-container">
+                  <div class="xp-text">
+                    <%= member.current_xp %> XP
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" style="--progress: <%= (member.current_xp / member.target_xp * 100).toFixed(2) %>%;" target-progress="<%= (member.current_xp / member.target_xp * 100).toFixed(2) %>">
+                      <div class="dot"></div>
+                    </div>
+                  </div>
+                  <div class="xp-text">
+                    <%= member.target_xp %> XP
+                  </div>
+                </div>
+                <div class="rank-container">
+                  <div class="level">
+                    <%= member.level %> LVL
+                  </div>
+                  <div class="rank">
+                    #<%= member.rank %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
