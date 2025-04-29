@@ -1,0 +1,33 @@
+{
+  "frames": 30,
+  "frameRate": 30,
+  "loop": false,
+  "list": [
+    {
+      "from": {
+        "value": 0
+      },
+      "to": {
+        "value": 1
+      },
+      "ease": "power2.out",
+      "updaters": [
+        {
+          "value": {
+            "$$": "$.value"
+          },
+          "setters": [
+            {
+              "type": "Style",
+              "selector": ".progress",
+              "key": "--progress",
+              "value": {
+                "$$": "`${($.value*Number($.attribute('target-progress'))).toFixed(2)}%`"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

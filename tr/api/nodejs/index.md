@@ -127,7 +127,7 @@ renderCustomHtml();
 *   `data.aimg.json` (İsteğe bağlı): Şablonda kullanılacak varsayılan veriler. Bu dosya, `renderTemplate` çağrısında `data` parametresi sağlanmazsa kullanılır.
 *   `animation.aimg.json` (İsteğe bağlı): `session.aimg.json` dosyasında `type` `NoScriptAnimated` olarak ayarlanmışsa animasyon tanımlarını içerir.
 
-Örnek şablonlar için [templates](templates) klasörünü kontrol edin.
+Örnek şablonlar için [templates](https://github.com/TheArmagan/aimg-client/blob/HEAD/templates) klasörünü kontrol edin.
 
 ## 📚 API Referansı
 
