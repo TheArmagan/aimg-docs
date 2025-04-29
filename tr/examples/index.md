@@ -69,4 +69,6 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > :::code source="../static/examples/unovis_single_container_anim/data.aimg.json" title="data.aimg.json":::
 > +++ ⚙️ Oturum Yapısı
 > :::code source="../static/examples/unovis_single_container_anim/session.aimg.json" title="session.aimg.json":::
+> +++ 🎬 Animasyon Yapısı
+> :::code source="../static/examples/unovis_single_container_anim/animation.aimg.json" title="animation.aimg.json":::
 > +++
