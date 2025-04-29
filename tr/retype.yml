@@ -1,12 +1,10 @@
 input: .
 output: .retype
-url: docs.aimg.tr/tr
+url: docs.aimg.tr
 branding:
   title: AIMG Dökümantasyon
 links:
 - text: Anasayfa
   link: https://aimg.tr
-- text: Discord
-  link: https://aimg.tr/s/discord
 footer:
-  copyright: "&copy; Telif Hakkı {{ year }}. Tüm Hakları Saklıdır."
+  copyright: "&copy; Telif Hakkı AIMG {{ year }}. Tüm Hakları Saklıdır."
