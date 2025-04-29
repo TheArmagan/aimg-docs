@@ -1,7 +1,7 @@
 {
 	"dependencies": {
 		"http-server": "^14.1.1",
-		"retype": "^0.2.0"
+		"retypeapp": "^3.7.0"
 	},
 	"private": true,
 	"scripts": {

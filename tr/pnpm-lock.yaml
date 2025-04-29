@@ -11,22 +11,15 @@ importers:
       http-server:
         specifier: ^14.1.1
         version: 14.1.1
-      retype:
-        specifier: ^0.2.0
-        version: 0.2.0
+      retypeapp:
+        specifier: ^3.7.0
+        version: 3.7.0
 
 packages:
-
-  amdefine@1.0.1:
-    resolution: {integrity: sha512-S2Hw0TtNkMJhIabBwIojKL9YHO5T0n5eNqWJ7Lrlel/zDbftQpxpapi8tZs3X1HWa+u+QeydGmzzNU0m09+Rcg==}
-    engines: {node: '>=0.4.2'}
 
   ansi-styles@4.3.0:
     resolution: {integrity: sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==}
     engines: {node: '>=8'}
-
-  async@0.2.10:
-    resolution: {integrity: sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==}
 
   async@3.2.6:
     resolution: {integrity: sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA==}
@@ -110,11 +103,6 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
-  handlebars@2.0.0-alpha.2:
-    resolution: {integrity: sha512-I1hrRfAul+WxKR0XClAd29lNbIr8XXZPB4j7yQjYcMqBNdW1Y6gK3eFhIq0NZ9Md6OdKl4ytjXhT1V86taNzSg==}
-    engines: {node: '>=0.4.7'}
-    hasBin: true
-
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -171,9 +159,6 @@ packages:
     resolution: {integrity: sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==}
     hasBin: true
 
-  optimist@0.3.7:
-    resolution: {integrity: sha512-TCx0dXQzVtSCg2OgY/bO9hjM9cV4XYx09TVK+s3+FhkjT6LovsLe+pPMzpWf+6yXK/hUizs2gUoTw3jHM0VaTQ==}
-
   portfinder@1.0.37:
     resolution: {integrity: sha512-yuGIEjDAYnnOex9ddMnKZEMFE0CcGo6zbfzDklkmT1m5z734ss6JMzN9rNB3+RR7iS+F10D4/BVIaXOyh8PQKw==}
     engines: {node: '>= 10.12'}
@@ -185,8 +170,9 @@ packages:
   requires-port@1.0.0:
     resolution: {integrity: sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==}
 
-  retype@0.2.0:
-    resolution: {integrity: sha512-1daDMCVn3NjnAwNIOqUcaxQyxCIm0Rp8MBBh4JW7a1IgBkoO/tN2yKW5Iu9gHxub8zPO2XHzRqUMstgQbV4biQ==}
+  retypeapp@3.7.0:
+    resolution: {integrity: sha512-ssIWm3bBtHvQXSWWpo/DlwEJ4Ajc1CmVa17cs5vSKVDTnY+nQopq3J+0+aHYKfg5UfGKg43CdgoLoP+VSqTdZw==}
+    hasBin: true
 
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -213,18 +199,9 @@ packages:
     resolution: {integrity: sha512-ZX99e6tRweoUXqR+VBrslhda51Nh5MTQwou5tnUDgbtyM0dBgmhEDtWGP/xbKn6hqfPRHujUNwz5fy/wbbhnpw==}
     engines: {node: '>= 0.4'}
 
-  source-map@0.1.43:
-    resolution: {integrity: sha512-VtCvB9SIQhk3aF6h+N85EaqIaBFIAfZ9Cu+NJHHVvc8BbEcnvDcFw6sqQ2dQrT6SlOrZq3tIvyD9+EGq/lJryQ==}
-    engines: {node: '>=0.8.0'}
-
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
-
-  uglify-js@2.3.6:
-    resolution: {integrity: sha512-T2LWWydxf5+Btpb0S/Gg/yKFmYjnX9jtQ4mdN9YRq73BhN21EhU0Dvw3wYDLqd3TooGUJlCKf3Gfyjjy/RTcWA==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   union@0.5.0:
     resolution: {integrity: sha512-N6uOhuW6zO95P3Mel2I2zMsbsanvvtgn6jVqJv4vbVcz/JN0OkL9suomjQGmWtxJQXOCqUJvquc1sMeNz/IwlA==}
@@ -237,26 +214,11 @@ packages:
     resolution: {integrity: sha512-p41ogyeMUrw3jWclHWTQg1k05DSVXPLcVxRTYsXUk+ZooOCZLcoYgPZ/HL/D/N+uQPOtcp1me1WhBEaX02mhWg==}
     engines: {node: '>=12'}
 
-  wordwrap@0.0.3:
-    resolution: {integrity: sha512-1tMA907+V4QmxV7dbRvb4/8MaRALK6q9Abid3ndMYnbyo8piisCmeONVqVSXqQA3KaP4SLt5b7ud6E2sqP8TFw==}
-    engines: {node: '>=0.4.0'}
-
-  xmldom@0.1.19:
-    resolution: {integrity: sha512-pDyxjQSFQgNHkU+yjvoF+GXVGJU7e9EnOg/KcGMDihBIKjTsOeDYaECwC/O9bsUWKY+Sd9izfE43JXC46EOHKA==}
-    engines: {node: '>=0.1'}
-    deprecated: Deprecated due to CVE-2021-21366 resolved in 0.5.0
-
 snapshots:
-
-  amdefine@1.0.1:
-    optional: true
 
   ansi-styles@4.3.0:
     dependencies:
       color-convert: 2.0.1
-
-  async@0.2.10:
-    optional: true
 
   async@3.2.6: {}
 
@@ -331,12 +293,6 @@ snapshots:
 
   gopd@1.2.0: {}
 
-  handlebars@2.0.0-alpha.2:
-    dependencies:
-      optimist: 0.3.7
-    optionalDependencies:
-      uglify-js: 2.3.6
-
   has-flag@4.0.0: {}
 
   has-symbols@1.1.0: {}
@@ -394,10 +350,6 @@ snapshots:
 
   opener@1.5.2: {}
 
-  optimist@0.3.7:
-    dependencies:
-      wordwrap: 0.0.3
-
   portfinder@1.0.37:
     dependencies:
       async: 3.2.6
@@ -411,10 +363,7 @@ snapshots:
 
   requires-port@1.0.0: {}
 
-  retype@0.2.0:
-    dependencies:
-      handlebars: 2.0.0-alpha.2
-      xmldom: 0.1.19
+  retypeapp@3.7.0: {}
 
   safe-buffer@5.1.2: {}
 
@@ -450,21 +399,9 @@ snapshots:
       side-channel-map: 1.0.1
       side-channel-weakmap: 1.0.2
 
-  source-map@0.1.43:
-    dependencies:
-      amdefine: 1.0.1
-    optional: true
-
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
-
-  uglify-js@2.3.6:
-    dependencies:
-      async: 0.2.10
-      optimist: 0.3.7
-      source-map: 0.1.43
-    optional: true
 
   union@0.5.0:
     dependencies:
@@ -475,7 +412,3 @@ snapshots:
   whatwg-encoding@2.0.0:
     dependencies:
       iconv-lite: 0.6.3
-
-  wordwrap@0.0.3: {}
-
-  xmldom@0.1.19: {}
