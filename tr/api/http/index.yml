@@ -1,3 +1,4 @@
 label: HTTP
 icon: arrow-switch
 order: -2
+hidden: true

@@ -29,5 +29,5 @@ AIMG ile hızlı bir başlangıç yapmak için aşağıdaki adımları izleyebil
 - Öncelikle hangi yöntemi kullanmak istediğinizi seçin:
   - **✅ Kolay:** [aimg.js](https://www.npmjs.com/package/aimg.js) Node.js modülünü kullanarak resim oluşturun.
     - 📚 Döküman için [buraya tıklayın.](./api/nodejs)
-  - **🛠️ Gelişmiş:** AIMG HTTP API'sini kullanarak daha fazla kontrol sağlayın.
-    - 📚 Döküman için [buraya tıklayın.](./api/http)
+  <!-- - **🛠️ Gelişmiş:** AIMG HTTP API'sini kullanarak daha fazla kontrol sağlayın.
+    - 📚 Döküman için [buraya tıklayın.](./api/http) -->
