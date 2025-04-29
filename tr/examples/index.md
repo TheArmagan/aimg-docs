@@ -53,7 +53,7 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > +++ ⚙️ Oturum Yapısı
 > :::code source="../static/examples/tailwind/session.aimg.json" title="session.aimg.json":::
 
-> ## Unovis Animasyonu
+> ## 📊 Unovis Animasyonu
 > !!! info ✨
 > Bu bir animasyon örneğidir. Resmin üzerine tıklayarak animasyonu görüntüleyebilirsiniz.
 > !!!
