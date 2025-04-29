@@ -52,3 +52,21 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > :::code source="../static/examples/tailwind/template.aimg.html" title="template.aimg.html":::
 > +++ ⚙️ Oturum Yapısı
 > :::code source="../static/examples/tailwind/session.aimg.json" title="session.aimg.json":::
+
+> ## Unovis Animasyonu
+> !!! info ✨
+> Bu bir animasyon örneğidir. Resmin üzerine tıklayarak animasyonu görüntüleyebilirsiniz.
+> !!!
+> :icon-info: Unovis, AIMG ile birlikte kullanılabilir. Unovis `1.5` 🔢 versiyonu desteklenmektedir. <br/>
+> [![Örnek](/static/examples/unovis_single_container_anim/result.gif)](/static/examples/unovis_single_container_anim/result.gif)
+> +++ Kaynak Kodu
+> !!! tip
+> Hemen yukarıdaki sekmelerden kaynak kodunu görüntüleyebilirsiniz.
+> !!!
+> +++ 📄 HTML Yapısı
+> :::code source="../static/examples/unovis_single_container_anim/template.aimg.html" title="template.aimg.html":::
+> +++ 💾 Veri Yapısı
+> :::code source="../static/examples/unovis_single_container_anim/data.aimg.json" title="data.aimg.json":::
+> +++ ⚙️ Oturum Yapısı
+> :::code source="../static/examples/unovis_single_container_anim/session.aimg.json" title="session.aimg.json":::
+> +++
