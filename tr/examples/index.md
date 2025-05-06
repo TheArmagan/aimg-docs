@@ -14,13 +14,15 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > Hemen yukarıdaki sekmelerden kaynak kodunu görüntüleyebilirsiniz.
 > !!!
 > +++ 📄 HTML Yapısı
-> :::code source="../static/examples/leveling_top/template.aimg.html" title="template.aimg.html":::
+> :::code source="../static/examples/leveling_top/template.aimg.html" title="templates/leveling_top/template.aimg.html":::
 > +++ 💾 Veri Yapısı
-> :::code source="../static/examples/leveling_top/data.aimg.json" title="data.aimg.json":::
+> :::code source="../static/examples/leveling_top/data.aimg.json" title="templates/leveling_top/data.aimg.json":::
 > +++ ⚙️ Oturum Yapısı
-> :::code source="../static/examples/leveling_top/session.aimg.json" title="session.aimg.json":::
+> :::code source="../static/examples/leveling_top/session.aimg.json" title="templates/leveling_top/session.aimg.json":::
 > +++ 🎬 Animasyon Yapısı
-> :::code source="../static/examples/leveling_top/animation.aimg.json" title="animation.aimg.json":::
+> :::code source="../static/examples/leveling_top/animation.aimg.json" title="templates/leveling_top/animation.aimg.json":::
+> +++ 🤖 Node.js Yapısı
+> :::code source="../static/examples/leveling_top/source.js" title="example.js":::
 > +++
 
 > ## 🎤 Discord Geçici Ses Kanalı
@@ -33,11 +35,13 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > Hemen yukarıdaki sekmelerden kaynak kodunu görüntüleyebilirsiniz.
 > !!!
 > +++ 📄 HTML Yapısı
-> :::code source="../static/examples/custom_voice_channel/template.aimg.html" title="template.aimg.html":::
+> :::code source="../static/examples/custom_voice_channel/template.aimg.html" title="templates/custom_voice_channel/template.aimg.html":::
 > +++ 💾 Veri Yapısı
-> :::code source="../static/examples/custom_voice_channel/data.aimg.json" title="data.aimg.json":::
+> :::code source="../static/examples/custom_voice_channel/data.aimg.json" title="templates/custom_voice_channel/data.aimg.json":::
 > +++ ⚙️ Oturum Yapısı
-> :::code source="../static/examples/custom_voice_channel/session.aimg.json" title="session.aimg.json":::
+> :::code source="../static/examples/custom_voice_channel/session.aimg.json" title="templates/custom_voice_channel/session.aimg.json":::
+> +++ 🤖 Node.js Yapısı
+> :::code source="../static/examples/tailwind/source.js" title="example.js":::
 > +++
 
 > ## 🌬️ TailwindCSS Desteği
@@ -49,9 +53,12 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > Hemen yukarıdaki sekmelerden kaynak kodunu görüntüleyebilirsiniz.
 > !!!
 > +++ 📄 HTML Yapısı
-> :::code source="../static/examples/tailwind/template.aimg.html" title="template.aimg.html":::
+> :::code source="../static/examples/tailwind/template.aimg.html" title="templates/tailwind/template.aimg.html":::
 > +++ ⚙️ Oturum Yapısı
-> :::code source="../static/examples/tailwind/session.aimg.json" title="session.aimg.json":::
+> :::code source="../static/examples/tailwind/session.aimg.json" title="templates/tailwind/session.aimg.json":::
+> +++ 🤖 Node.js Yapısı
+> :::code source="../static/examples/tailwind/source.js" title="example.js":::
+> +++
 
 > ## 📊 Unovis Animasyonu
 > !!! info ✨
@@ -64,11 +71,13 @@ Buraya zamanla daha fazla örnek eklenecektir.
 > Hemen yukarıdaki sekmelerden kaynak kodunu görüntüleyebilirsiniz.
 > !!!
 > +++ 📄 HTML Yapısı
-> :::code source="../static/examples/unovis_single_container_anim/template.aimg.html" title="template.aimg.html":::
+> :::code source="../static/examples/unovis_single_container_anim/template.aimg.html" title="templates/unovis_single_container_anim/template.aimg.html":::
 > +++ 💾 Veri Yapısı
-> :::code source="../static/examples/unovis_single_container_anim/data.aimg.json" title="data.aimg.json":::
+> :::code source="../static/examples/unovis_single_container_anim/data.aimg.json" title="templates/unovis_single_container_anim/data.aimg.json":::
 > +++ ⚙️ Oturum Yapısı
-> :::code source="../static/examples/unovis_single_container_anim/session.aimg.json" title="session.aimg.json":::
+> :::code source="../static/examples/unovis_single_container_anim/session.aimg.json" title="templates/unovis_single_container_anim/session.aimg.json":::
 > +++ 🎬 Animasyon Yapısı
-> :::code source="../static/examples/unovis_single_container_anim/animation.aimg.json" title="animation.aimg.json":::
+> :::code source="../static/examples/unovis_single_container_anim/animation.aimg.json" title="templates/unovis_single_container_anim/animation.aimg.json":::
+> +++ 🤖 Node.js Yapısı
+> :::code source="../static/examples/unovis_single_container_anim/source.js" title="example.js":::
 > +++
